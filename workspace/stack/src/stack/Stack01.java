@@ -29,27 +29,27 @@ public class Stack01 {
         }
     }
 
-    //push X: ì •ìˆ˜ Xë¥¼ ìŠ¤íƒì— ë„£ëŠ” ì—°ì‚°ì´ë‹¤.
+    //push X: Á¤¼ö X¸¦ ½ºÅÃ¿¡ ³Ö´Â ¿¬»êÀÌ´Ù.
     public static void push(int x){
         stack.push(x);
     }
 
-    //pop: ìŠ¤íƒì—ì„œ ê°€ìž¥ ìœ„ì— ìžˆëŠ” ì •ìˆ˜ë¥¼ ë¹¼ê³ , ê·¸ ìˆ˜ë¥¼ ì¶œë ¥í•œë‹¤. ë§Œì•½ ìŠ¤íƒì— ë“¤ì–´ìžˆëŠ” ì •ìˆ˜ê°€ ì—†ëŠ” ê²½ìš°ì—ëŠ” -1ì„ ì¶œë ¥í•œë‹¤.
+    //pop: ½ºÅÃ¿¡¼­ °¡Àå À§¿¡ ÀÖ´Â Á¤¼ö¸¦ »©°í, ±× ¼ö¸¦ Ãâ·ÂÇÑ´Ù. ¸¸¾à ½ºÅÃ¿¡ µé¾îÀÖ´Â Á¤¼ö°¡ ¾ø´Â °æ¿ì¿¡´Â -1À» Ãâ·ÂÇÑ´Ù.
     public static void pop(){
         System.out.println(stack.isEmpty() ? -1 : stack.pop());
     }
 
-    //size: ìŠ¤íƒì— ë“¤ì–´ìžˆëŠ” ì •ìˆ˜ì˜ ê°œìˆ˜ë¥¼ ì¶œë ¥í•œë‹¤.
+    //size: ½ºÅÃ¿¡ µé¾îÀÖ´Â Á¤¼öÀÇ °³¼ö¸¦ Ãâ·ÂÇÑ´Ù.
     public static void size(){
         System.out.println(stack.size());
     }
 
-    //empty: ìŠ¤íƒì´ ë¹„ì–´ìžˆìœ¼ë©´ 1, ì•„ë‹ˆë©´ 0ì„ ì¶œë ¥í•œë‹¤.
+    //empty: ½ºÅÃÀÌ ºñ¾îÀÖÀ¸¸é 1, ¾Æ´Ï¸é 0À» Ãâ·ÂÇÑ´Ù.
     public static void empty(){
         System.out.println(stack.empty() ? 1 : 0);
     }
 
-    //top: ìŠ¤íƒì˜ ê°€ìž¥ ìœ„ì— ìžˆëŠ” ì •ìˆ˜ë¥¼ ì¶œë ¥í•œë‹¤. ë§Œì•½ ìŠ¤íƒì— ë“¤ì–´ìžˆëŠ” ì •ìˆ˜ê°€ ì—†ëŠ” ê²½ìš°ì—ëŠ” -1ì„ ì¶œë ¥í•œë‹¤.
+    //top: ½ºÅÃÀÇ °¡Àå À§¿¡ ÀÖ´Â Á¤¼ö¸¦ Ãâ·ÂÇÑ´Ù. ¸¸¾à ½ºÅÃ¿¡ µé¾îÀÖ´Â Á¤¼ö°¡ ¾ø´Â °æ¿ì¿¡´Â -1À» Ãâ·ÂÇÑ´Ù.
     public static void top(){
         System.out.println(stack.empty() ? -1 : stack.peek());
     }
